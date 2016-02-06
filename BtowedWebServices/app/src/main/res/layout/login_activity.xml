@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_layout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f80b14"
+            android:textSize="20sp"
+            android:id="@+id/text_error"
+            android:gravity="center"
+            android:visibility="visible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/linear_layout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleImage"
+            android:src="@drawable/full_logo"
+            android:layout_marginTop="30dp" />
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relative_layout"
+            android:layout_marginTop="10dp">
+
+            <fragment
+                android:layout_marginLeft="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:id="@+id/login_fragment"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                tools:layout="@layout/login_fragment"
+                android:name="obs.org.btowedwebservices.Fragments.LoginFragment" />
+
+            <ImageView
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_icon_image"
+                android:src="@drawable/user_icon"
+                android:padding="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/button"
+                android:layout_alignEnd="@+id/button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:id="@+id/button"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/login_fragment"
+                android:ems="15"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/user_login_here_button"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
