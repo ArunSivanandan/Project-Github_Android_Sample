@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sample Btowed App</string>
+
+    <string name="driver.login.text">Driver Login</string>
+    <string name="action.settings">Settings</string>
+    <string name="remember.me.checkbox">Remember Me</string>
+    <string name="forgot.password.button">Forgot Password?</string>
+    <string name="hint.email.edittext">Email</string>
+    <string name="hint.password.edittext">Password</string>
+    <string name="alertmessage.title">Security Alert</string>
+    <string name="alertmessage.positive.button">OK</string>
+    <string name="alertmessage.invalid.username.message">Invalid Username</string>
+    <string name="alertmessage.invalid.password.message">Invalid Password</string>
+    <string name="alertmessage.invalid.username.password.message">Invalid Username and Password</string>
+    <string name="alertmessage.success">Success the you are eligible to go to next activity</string>
+    <string name="testing.username">btowed1007@gmail.com</string>
+    <string name="testing.password">btowed</string>
+    <string name="toast.message">Success</string>
+    <string name="forgot.password_title">Forgot Password</string>
+    <string name="forgot.password_message_text">For reseting the password, enter your valid email ID.</string>
+    <string name="button.submit">Submit</string>
+    <string name="text.error.message">Enter a valid email address</string>
+</resources>
